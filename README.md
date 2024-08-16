@@ -34,4 +34,5 @@ git clone https://github.com/Shayanmohajer/ICLR-2024-Bayes-Conditional-Distribut
 
 
 ## Results
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://drive.google.com/file/d/1qYNDg85AGMRTsy87BOr6DfBIIFndn4hz/view?usp=sharing)
+![ICLR1](https://github.com/user-attachments/assets/c3aa457b-0de7-4867-9186-b86bd0e1a164)
+
