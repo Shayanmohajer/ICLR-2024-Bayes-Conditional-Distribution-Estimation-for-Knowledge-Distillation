@@ -1,4 +1,4 @@
-# BAYES CONDITIONAL DISTRIBUTION ESTIMATION FOR KNOWLEDGE DISTILLATION BASED ON CONDITIONAL MUTUAL INFORMATION (ICLR-2024)
+# Bayes Conditional Distribution Estimation for Knowledge Distillation Based on Conditional Mutual Information (ICLR-2024)
 
 ## Abstract 
 It is believed that in knowledge distillation (KD), the role of the teacher is to provide
@@ -29,25 +29,9 @@ to as high as 84% for an omitted class (zero-shot).
 - pytorch 1.11.0
 - CUDA 11.3.1
 
-## How to run the code
-### Clone the repository
-git clone https://github.com/Shayanmohajer/Covariance-Aware-Diffusion-Models-AAAI-2025.git
+## Clone the repository
+git clone https://github.com/Shayanmohajer/ICLR-2024-Bayes-Conditional-Distribution-Estimation-for-Knowledge-Distillation.git
 
-### Download Pre-trained diffusion models
-from the [link](https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh) download the pre-trained models for  FFHQ and ImageNet dataset.
-```
-mkdir models
-mv {DOWNLOAD_DIR}/ffqh_10m.pt ./models/
-```
-### Environment
-``` git clone https://github.com/VinAIResearch/blur-kernel-space-exploring bkse``` 
 
-### Run the code
-```
-python3 sample_condition.py \
---model_config=configs/model_config.yaml \
---diffusion_config=configs/diffusion_config.yaml \
---task_config={TASK-CONFIG};
-```
-
-#### *** This repo is based on the repo for [DPS](https://github.com/DPS2022/diffusion-posterior-sampling?tab=readme-ov-file) paper 
+## Results
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://drive.google.com/file/d/1qYNDg85AGMRTsy87BOr6DfBIIFndn4hz/view?usp=sharing)
